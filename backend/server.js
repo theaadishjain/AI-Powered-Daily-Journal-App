@@ -5,7 +5,16 @@ const cors = require('cors');
 const axios = require('axios');
 
 const app = express();
-app.use(cors());
+
+// CORS setup for production
+const allowedOrigins = [
+  'https://daynotee.onrender.com/', // TODO: Replace with your actual frontend URL
+];
+app.use(cors({
+  origin: allowedOrigins,
+  credentials: true,
+}));
+
 app.use(express.json());
 
 // MongoDB Model
