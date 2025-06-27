@@ -1,10 +1,10 @@
-# DayNote 🪄
+# DayNote 
 
 A visually stunning, AI-powered journal app that summarizes your day and detects your mood using Google Gemini. Built with Next.js, TailwindCSS, Express, and MongoDB.
 
 ---
 
-## ✨ Features
+##  Features
 - Write and save daily journal entries
 - AI-generated summary and mood detection (Gemini API)
 - Beautiful, animated timeline view
@@ -14,12 +14,12 @@ A visually stunning, AI-powered journal app that summarizes your day and detects
 
 ---
 
-## 🚀 Live Demo
+##  Live Demo
 [Live App on Render](https://your-frontend-url.onrender.com)
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 - **Frontend:** Next.js, React, TailwindCSS, Framer Motion, Headless UI, Heroicons, React Hot Toast
 - **Backend:** Node.js, Express, Mongoose, Gemini API
 - **Database:** MongoDB Atlas
@@ -27,7 +27,7 @@ A visually stunning, AI-powered journal app that summarizes your day and detects
 
 ---
 
-## 📝 Sample Journal Entry
+##  Sample Journal Entry
 **Entry:**
 ```
 Today I went for a walk in the park and enjoyed the sunshine. I felt really relaxed and happy to be outside.
@@ -40,7 +40,7 @@ Today I went for a walk in the park and enjoyed the sunshine. I felt really rela
 
 ---
 
-## 🧑‍💻 Local Development
+##  Local Development
 
 ### 1. Clone the repository
 ```bash
@@ -82,7 +82,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ---
 
-## 🌐 Deployment (Render)
+##  Deployment (Render)
 
 ### Backend
 - Create a new Web Service on Render
@@ -101,7 +101,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 ```
 AI-powered_Journal app/
 ├── backend/
@@ -117,7 +117,7 @@ AI-powered_Journal app/
 
 ---
 
-## 🛡️ Environment Variables
+##  Environment Variables
 - **backend/.env**
   - `GEMINI_API_KEY` — Your Gemini API key
   - `MONGODB_URI` — Your MongoDB Atlas connection string
