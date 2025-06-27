@@ -8,8 +8,8 @@ const app = express();
 
 // CORS setup for production
 const allowedOrigins = [
-  'https://daynotee.onrender.com/', // TODO: Replace with your actual frontend URL
-];
+    'https://daynotee.onrender.com'
+  ];
 app.use(cors({
   origin: allowedOrigins,
   credentials: true,
